@@ -2,33 +2,9 @@
 #include <string>
 using namespace std;
 #include "Batter.h"
+#include "Game.h"
 #include "Team.h"
 #include "Pitcher.h"
-#include "Game.h"
-
-Batter::Batter (double a) {
-
-	average = a;
-}
-
-
-Team::Team (string a) {
-
-	name = a;
-}
-
-
-Pitcher::Pitcher (double a) {
-	
-	era = a;
-}
-
-
-Game::Game (int a) {
-
-	inning = a;
-
-}
 
 int main() {
 
