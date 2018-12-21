@@ -1,53 +1,28 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-class Batter {
-
-	public:
-		double average; //batting average
-		Batter (double);
-
-};
+#include "Batter.h"
+#include "Team.h"
+#include "Pitcher.h"
+#include "Game.h"
 
 Batter::Batter (double a) {
 
 	average = a;
 }
 
-class Team {
-
-	public: 
-		string name;
-		Team (string);
-		
-};
 
 Team::Team (string a) {
 
 	name = a;
 }
 
-class Pitcher {
-
-	public:
-		double era; //earned run average
-		Pitcher (double);
-};
 
 Pitcher::Pitcher (double a) {
 	
 	era = a;
 }
 
-class Game {
-
-	
-	public:
-		int inning;
-		Game (int);
-
-};
 
 Game::Game (int a) {
 
